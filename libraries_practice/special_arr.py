@@ -26,5 +26,5 @@ ar_dia1=np.eye(3,5)
 print(ar_dia1)
 
 print("____LINSPACE_____")
-ar_lin=np.linspace(0,20,num=5)
+ar_lin=np.linspace(0,20,num=5) #to print number between
 print(ar_lin)
