@@ -22,7 +22,7 @@ This repository contains practice programs developed while learning Python funda
 
 Technologies Used
 
-- Python 3
+- Python 3/3.X.XX
 
 How to Run
 
