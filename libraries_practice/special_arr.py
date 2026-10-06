@@ -52,3 +52,24 @@ print(np.diag([1, 2, 3]))  # puts the given values on the diagonal
 print("----ARANGE WITH STEP----")
 print(np.arange(1, 20, 3))  # start, stop (not included), step
 
+# More Special NumPy Array Methods (continuation of special_arr.py)
+
+
+
+print("----ARANGE WITH STEP----")
+print(np.arange(1, 20, 3))  # start, stop (not included), step
+
+print("----LOGSPACE----")
+print(np.logspace(0, 3, num=4))  # numbers spaced evenly on a log scale: 10^0 to 10^3
+
+print("----RANDOM----")
+np.random.seed(42)  # seed makes the random numbers repeatable
+print(np.random.rand(3))                # random floats between 0 and 1
+print(np.random.randint(1, 10, size=5))  # random integers from 1 to 9
+print(np.random.randn(3))               # random numbers from a normal distribution
+
+print("----RESHAPE----")
+ar_rs = np.arange(12).reshape(3, 4)  # change the shape without changing the data
+print(ar_rs)
+print(ar_rs.shape)  # (rows, columns)
+
