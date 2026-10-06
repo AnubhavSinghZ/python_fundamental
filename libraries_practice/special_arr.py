@@ -52,10 +52,6 @@ print(np.diag([1, 2, 3]))  # puts the given values on the diagonal
 print("----ARANGE WITH STEP----")
 print(np.arange(1, 20, 3))  # start, stop (not included), step
 
-# More Special NumPy Array Methods (continuation of special_arr.py)
-
-
-
 print("----ARANGE WITH STEP----")
 print(np.arange(1, 20, 3))  # start, stop (not included), step
 
