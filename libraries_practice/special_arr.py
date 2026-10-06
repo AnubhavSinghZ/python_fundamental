@@ -29,3 +29,26 @@ print(ar_dia1)
 print("____LINSPACE_____")
 ar_lin=np.linspace(0,20,num=5) #to print number between
 print(ar_lin)
+
+# More Special NumPy Array Methods (continuation of special_arr.py)
+
+import numpy as np
+
+print("----FULL----")
+ar_full = np.full((2, 3), 7)  # array of given shape filled with any value we want
+print(ar_full)
+
+print("----ZEROS_LIKE / ONES_LIKE----")
+base = np.array([[1, 2, 3], [4, 5, 6]])
+print(np.zeros_like(base))  # zeros with the same shape as base
+print(np.ones_like(base))   # ones with the same shape as base
+
+print("----IDENTITY----")
+print(np.identity(3))  # square matrix with 1's on the diagonal (like eye, but always square)
+
+print("----DIAG----")
+print(np.diag([1, 2, 3]))  # puts the given values on the diagonal
+
+print("----ARANGE WITH STEP----")
+print(np.arange(1, 20, 3))  # start, stop (not included), step
+
