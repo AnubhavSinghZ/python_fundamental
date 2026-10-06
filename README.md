@@ -198,6 +198,7 @@ To move from writing simple scripts to building real projects in **Python**, **D
 ## 👨‍💻 Author
 
 **Anubhav Singh**
+<br>
 Computer Science Student | Learning Python and AI Development
 
 ⭐ If you find this repository helpful, consider giving it a star!
