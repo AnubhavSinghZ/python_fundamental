@@ -69,3 +69,20 @@ ar_rs = np.arange(12).reshape(3, 4)  # change the shape without changing the dat
 print(ar_rs)
 print(ar_rs.shape)  # (rows, columns)
 
+print("----FLATTEN----")
+print(ar_rs.flatten())  # converts any array back to 1D
+
+print("----TILE & REPEAT----")
+print(np.tile([1, 2], 3))    # repeats the whole array: [1 2 1 2 1 2]
+print(np.repeat([1, 2], 3))  # repeats each element:    [1 1 1 2 2 2]
+
+print("----SLICING----")
+print(ar_rs[1, 2])      # element at row 1, column 2
+print(ar_rs[:, 1])      # every row, column 1
+print(ar_rs[0:2, 1:3])  # rows 0-1, columns 1-2
+
+print("----ARRAY INFO----")
+print(ar_rs.ndim)   # number of dimensions
+print(ar_rs.size)   # total number of elements
+print(ar_rs.dtype)  # data type of the elements
+
