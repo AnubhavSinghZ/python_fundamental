@@ -91,5 +91,13 @@ print("Creating RANDOM NUMBERS")
 
 #Rand()
 
-var=np.random.rand(4)
+var=np.random.rand(4)  # value  between 0 to 1
 print(var)
+
+var1=np.random.rand(2,5)
+print(var1)
+
+#Randn()
+print("randn() function")
+var2=np.random.randn(3)  # value close to 0. either can be negative or positive.
+print(var2)
