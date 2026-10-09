@@ -101,3 +101,8 @@ print(var1)
 print("randn() function")
 var2=np.random.randn(3)  # value close to 0. either can be negative or positive.
 print(var2)
+
+#Randf()
+print("ranf() function")
+var3=np.random.ranf(3)
+print(var3)
