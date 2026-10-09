@@ -86,3 +86,10 @@ print(ar_rs.ndim)   # number of dimensions
 print(ar_rs.size)   # total number of elements
 print(ar_rs.dtype)  # data type of the elements
 
+# CREATING RANDOM NUMBERS
+print("Creating RANDOM NUMBERS")
+
+#Rand()
+
+var=np.random.rand(4)
+print(var)
