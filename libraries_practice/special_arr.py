@@ -106,3 +106,8 @@ print(var2)
 print("ranf() function")
 var3=np.random.ranf(3)
 print(var3)
+
+#Randint()
+print("Randint() function")
+var4=np.random.randint(5,20,5)  #randint(min,max,total_values) this is the syntax
+print(var4)
