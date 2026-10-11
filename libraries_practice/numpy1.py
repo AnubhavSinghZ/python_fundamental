@@ -65,3 +65,16 @@ c=np.array([1,2,3,4])
 new2=c.astype(float)
 print(c)
 print(new2)
+
+# **Arithmetic Operation**
+
+var=np.array([1,2,3,4])
+varadd= var + 3
+print("Add:",varadd)
+
+abc=np.array([1,2,3,4])
+xyz=np.array([1,2,3,4])
+varadd1=abc+xyz
+print("add two array:",varadd1)
+
+
