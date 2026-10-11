@@ -28,3 +28,10 @@ print("Type:", type(y_list))
 
 
 # NumPy Datatype
+
+#import numpy as np
+var=np.array([1,2,3,4,12,13,14,15]) 
+print("Data Tpye: ", var.dtype)
+
+var1=np.array([1.2,3.7, 4.5,7.0])
+print(var1.dtype)
