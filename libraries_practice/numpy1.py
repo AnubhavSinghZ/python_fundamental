@@ -36,5 +36,15 @@ print("Data Tpye: ", var.dtype)
 var1=np.array([1.2,3.7, 4.5,7.0])  # FLOAT DATATYPE
 print(var1.dtype)
 
-str1=np.array(["a","b", "c"])
+str1=np.array(["a","b", "c"]) # U1 (string) DATATYPE
 print(str1.dtype)
+
+# CONVERSION FROM ONE DATATYPE TO ANOTHER DATATYPE
+
+a=np.array([1,2,3,4],dtype=np.int8) #int64 to int8
+print("DATA TYPE :", a.dtype)
+print(a)
+
+a1=np.array([1,2,3,4],dtype="f") # changing in shortcut method by using only one word
+print("DATA TYPE :", a1.dtype)
+print(a)
