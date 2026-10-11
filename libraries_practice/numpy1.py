@@ -46,5 +46,22 @@ print("DATA TYPE :", a.dtype)
 print(a)
 
 a1=np.array([1,2,3,4],dtype="f") # changing in shortcut method by using only one word
-print("DATA TYPE :", a1.dtype)
+print("a1 DATA TYPE :", a1.dtype)
 print(a)
+
+
+b=np.array([1,2,3,4]) # changing in shortcut method by using only one word
+new=np.float32(b)
+new1=np.int_(new)
+print(" b DATA TYPE :", b.dtype)
+print(b)
+print(new)
+print(new1)
+print("new1 Data Type:",new1.dtype)
+
+# Direct Convert
+
+c=np.array([1,2,3,4])
+new2=c.astype(float)
+print(c)
+print(new2)
