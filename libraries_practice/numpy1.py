@@ -25,3 +25,6 @@ print(y_3d)
 y_list = [1, 2, 3, 4, 5, 6]
 print("\nPython List:", y_list)
 print("Type:", type(y_list))
+
+
+# NumPy Datatype
