@@ -25,4 +25,4 @@ else:
  comment="Please enter marks between 0 and 100"
 print(f"\nGrade:{grade}")
 
-print(f"Teacher's Remark:{comment}")
+print(f"Teacher's Remark:{comment} is this")
