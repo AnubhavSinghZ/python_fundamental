@@ -32,8 +32,6 @@ print(ar_lin)
 
 # More Special NumPy Array Methods (continuation of special_arr.py)
 
-
-
 print("----FULL----")
 ar_full = np.full((2, 3), 7)  # array of given shape filled with any value we want
 print(ar_full)
