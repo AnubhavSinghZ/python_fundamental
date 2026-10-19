@@ -59,6 +59,10 @@ print(new)
 print(new1)
 print("new1 Data Type:",new1.dtype)
 
+d=np.array([1,2,3])
+dnew=np.float(d)
+print(dnew)
+
 # Direct Convert
 
 c=np.array([1,2,3,4])
