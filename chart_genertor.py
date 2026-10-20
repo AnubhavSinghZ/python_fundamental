@@ -5,7 +5,7 @@ import pandas as pd
 data = {
     "Product": ["Laptops", " Smartphone", "Headphones", "Tablets", "Monitors"],
     "Units_sold": [120, 350, 480, 90, 150,130],
-    "Revenue": [96000, 175000, 24000, 27000, 45000,],
+    "Revenue": [96000, 175000, 24000, 27000, 45000,13000],
     "Profit": [12000,19000,1200,1900,20000,],
 }
 
