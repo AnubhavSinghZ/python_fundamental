@@ -2,7 +2,7 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-# Create a Dummy Data Set directly in the code 
+# Create a Dummy ( same to same ) Data Set directly in the code 
 data = {
     "Product": ["Laptops", " Smartphone", "Headphones", "Tablets", "Monitors"],
     "Units_sold": [120, 350, 480, 90, 150,130],
