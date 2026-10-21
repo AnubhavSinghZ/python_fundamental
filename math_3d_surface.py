@@ -1,4 +1,4 @@
-#Maths 3D Function 
+# Maths 3D Function 
 
 import matplotlib.pyplot as  plt
 import numpy as np
