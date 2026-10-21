@@ -1,3 +1,5 @@
+#Maths 3D Function 
+
 import matplotlib.pyplot as  plt
 import numpy as np
 fig = plt.subplots(subplot_kw={"projection":"3d"})[0]
