@@ -12,3 +12,27 @@ def fun(n):
 
 n = 10
 fun(n)
+
+
+
+# Here is the same idea in another function, using a helper:
+
+python
+def is_prime(num):
+    if num < 2:
+        return False
+    for d in range(2, int(num**0.5) + 1):
+        if num % d == 0:
+            return False
+    return True
+
+def first_n_primes(n):
+    x = 2
+    count = 0
+    while count < n:
+        if is_prime(x):
+            print(x)
+            count += 1
+        x += 1
+
+first_n_primes(10)
