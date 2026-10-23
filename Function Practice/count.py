@@ -1,13 +1,14 @@
 def fun(n):
-    x=2
-    count=0
+    x = 2
+    count = 0
     while count < n:
-        for d in range (2,int(x**0.5)+1):
-            if x%d==0:
+        for d in range(2, int(x**0.5) + 1):
+            if x % d == 0:
                 break
-            else:
-                print(x)
-                count+=1
-            x+=1
-n=10
+        else:                 # runs only if the for loop did NOT break
+            print(x)
+            count += 1
+        x += 1                # outside the for loop
+
+n = 10
 fun(n)
