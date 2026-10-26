@@ -6,7 +6,7 @@ fav_lang={
 }
 
 
-friends=["abhi", "prin"]
+friends=["abhi", "prince"]
 for name in fav_lang.keys():
     print(f"Hi {name}")
     if name in friends:
