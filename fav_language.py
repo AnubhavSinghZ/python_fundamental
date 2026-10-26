@@ -1,6 +1,6 @@
 fav_lang={
-    "anu": "python",
-    "prin": "python",
+    "anu": "Python",
+    "prin": "Python",
     "aman": "html",
     "abhi": "c++",
 }
