@@ -7,7 +7,7 @@ print(f"\nHello {prompt}!")
 
 
 
-height = int(input("How tall are you?"))
+height = int(input("How tall are you?")) # Asking to users that what's their height
 
 if height >=48:
     print("YOu are tall enough to ride")
