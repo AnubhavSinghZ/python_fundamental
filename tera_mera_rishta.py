@@ -22,7 +22,7 @@ def play_song_lyrics():
             sys.stdout.flush()
             time.sleep(0.04)  # Speed of typing individual characters
             
-        # Pause at the end of the line before moving to the next one
+        # Pause at the end of the line before moving to the next line
         time.sleep(item["delay"])
         print() # New line
 
