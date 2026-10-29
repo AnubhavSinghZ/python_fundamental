@@ -24,7 +24,7 @@ def play_song_lyrics():
             
         # Pause at the end of the line before moving to the next line
         time.sleep(item["delay"])
-        print() # New line
+        print() # for Newline
 
 if __name__ == "__main__":
     play_song_lyrics()
