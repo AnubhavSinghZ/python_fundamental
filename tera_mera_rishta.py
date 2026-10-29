@@ -1,7 +1,7 @@
 import time
 import sys
 
-# The lyrics stored as a list of dictionaries with custom delays (in seconds)
+# The lyrics stored as a list of dictionaries with custom delays of time (in seconds)
 lyrics = [
     {"line": "Tera yakeen kyun maine kiya nahin?", "delay": 3.9},
     {"line": "Tujhse raha kyun juda?", "delay": 3.8},
