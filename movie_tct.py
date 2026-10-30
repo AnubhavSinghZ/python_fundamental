@@ -10,6 +10,8 @@ while True:
         print("Free Ticket")
     elif age<12:
         print("The Ticket price is $10")
+    elif age<20:
+        print("The ticket price is $20"
     else:
         print("the ticket price is $15")
 
