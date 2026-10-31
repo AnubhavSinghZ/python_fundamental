@@ -1,4 +1,4 @@
-# in this example We have put a dictionary in a dictionary
+# This example contains Dictionary in Dictionary
 
 
 
