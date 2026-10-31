@@ -6,7 +6,7 @@ unconfirmed_users=['alice', 'brain', 'candace']
 confirmed_users=[]
 
 #verify each user until there are no more unconfirmed user.
-# move each vaerified user into the list of confirmed user.
+# move each verified user into the list of confirmed user.
 while confirmed_users:
     current_user=unconfirmed_users.pop()
 
