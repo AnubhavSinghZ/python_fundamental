@@ -18,7 +18,7 @@ print("Step 1: 'sales_data.csv' successfully created!")
 # Load the CSV file
 df=pd.read_csv("sales_data.csv")
 
-# Create a bar chart : Product name on X Axix, units sold on Y Axis
+# Create a Bar Chart : Product name on X Axix, units sold on Y Axis
 plt.bar(df["Product"],df["Units_Sold"], df["Profit"] color='skyblue', edgecolor='black')
 
 # Add Title 
@@ -27,7 +27,7 @@ plt.xlabel("Product Categories", fontsize=12)
 plt.ylabel("Units Sold", fontsize=12)
 plt.grid(axos='y', linestyle='--', alpha=0.7)
 
-# Display the chart 
+# Display the Chart 
 print("Step 2: Dsiplaying the chart page")
 plt.tight_layout()
 plt.show()
