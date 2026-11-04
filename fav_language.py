@@ -1,3 +1,5 @@
+#dictionaries with list
+
 fav_lang={
     "Anu": "Python",
     "Prin": "Python",
