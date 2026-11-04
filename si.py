@@ -1,4 +1,4 @@
-# __SIMPLE CALCULATOR__
+# __SIMPLE CALCULATOR FOR SIMPLE INTEREST__
 
 def calculate_si():
     print("==SIMPLE INTEREST CALCULATOR==")
