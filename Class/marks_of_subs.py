@@ -1,3 +1,5 @@
+# Marks of Subjects using def __init__ function
+
 class Studnet:
     def __init__(self,name, marks):
         self.name = name
