@@ -1,3 +1,5 @@
+# __init__ Function
+
 class Person:
   def __init__(self, name, age):  #__init__ method
     self.name = name
