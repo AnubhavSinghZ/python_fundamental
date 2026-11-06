@@ -1,0 +1,6 @@
+print("🪔 Happy Diwali! 🪔")
+print()
+print("✨ May your life shine like a diya! ✨")
+print("🎆 May happiness and success fill your life!")
+print()
+print("🙏 शुभ दीपावली 🙏")
