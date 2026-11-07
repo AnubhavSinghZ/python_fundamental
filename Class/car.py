@@ -1,3 +1,4 @@
+#Class function of Car
 class Car:
     color="white"
     @staticmethod
