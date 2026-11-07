@@ -1,3 +1,5 @@
+#class method in __init__ function 
+
 class Student:
     def __init__(self, name, marks):
         self.name=name
